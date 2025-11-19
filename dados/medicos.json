@@ -1,0 +1,26 @@
+[
+  {
+    "crm": "333333",
+    "especialidade": {
+      "id": 1,
+      "nome": "Cardiologia",
+      "descricao": "Especialidade focada em doenças do coração"
+    },
+    "id": 1,
+    "nome": "Davi brito",
+    "telefone": "213124324",
+    "email": "davibrito@gmail.com"
+  },
+  {
+    "crm": "2222222",
+    "especialidade": {
+      "id": 2,
+      "nome": "Dermatologia",
+      "descricao": "Especialidade focada em doenças de pele"
+    },
+    "id": 2,
+    "nome": "Tiringa",
+    "telefone": "81 3332 4433",
+    "email": "tiringamilgrau@gmail.com"
+  }
+]

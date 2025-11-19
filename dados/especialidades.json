@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "nome": "Cardiologia",
+    "descricao": "Especialidade focada em doenças do coração"
+  },
+  {
+    "id": 2,
+    "nome": "Dermatologia",
+    "descricao": "Especialidade focada em doenças de pele"
+  },
+  {
+    "id": 3,
+    "nome": "Ortopedia",
+    "descricao": "Especialidade focada em ossos e articulações"
+  },
+  {
+    "id": 4,
+    "nome": "Pediatria",
+    "descricao": "Especialidade focada em crianças"
+  },
+  {
+    "id": 5,
+    "nome": "Clínico Geral",
+    "descricao": "Atendimento médico geral"
+  }
+]
