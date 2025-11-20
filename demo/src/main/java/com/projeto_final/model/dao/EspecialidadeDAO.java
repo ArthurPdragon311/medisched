@@ -51,10 +51,4 @@ public class EspecialidadeDAO extends BaseDAO<Especialidade> {
         }
     }
     
-    public Especialidade buscarPorNome(String nome) {
-        return dados.stream()
-                .filter(e -> e.getNome().equalsIgnoreCase(nome))
-                .findFirst()
-                .orElse(null);
-    }
 }

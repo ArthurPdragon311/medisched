@@ -55,10 +55,4 @@ public class PacienteDAO extends BaseDAO<Paciente> {
                 .filter(p -> p.getNome().toLowerCase().contains(nome.toLowerCase()))
                 .toList();
     }
-    
-    public List<Paciente> buscarMaioresDeIdade() {
-        return dados.stream()
-                .filter(Paciente::isMaiorDeIdade)
-                .toList();
-    }
 }

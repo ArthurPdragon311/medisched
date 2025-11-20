@@ -51,8 +51,10 @@ public class TelaMedico extends JFrame {
     
     private JPanel criarPainelFormulario() {
         JPanel panel = new JPanel(new GridLayout(5, 2, 10, 10));
-        panel.setBorder(BorderFactory.createTitledBorder("Dados do Médico"));
-        panel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        panel.setBorder(BorderFactory.createCompoundBorder(
+            BorderFactory.createTitledBorder("Dados do Medico"),
+            BorderFactory.createEmptyBorder(10, 10, 10, 10)
+        ));
         
         txtNome = new JTextField();
         txtCrm = new JTextField();

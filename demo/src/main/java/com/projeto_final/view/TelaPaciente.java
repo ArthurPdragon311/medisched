@@ -44,8 +44,10 @@ public class TelaPaciente extends JFrame {
     
     private JPanel criarPainelFormulario() {
         JPanel panel = new JPanel(new GridLayout(6, 2, 10, 10));
-        panel.setBorder(BorderFactory.createTitledBorder("Dados do Paciente"));
-        panel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        panel.setBorder(BorderFactory.createCompoundBorder(
+            BorderFactory.createTitledBorder("Dados do Paciente"),
+            BorderFactory.createEmptyBorder(10, 10, 10, 10)
+        ));
         
         txtNome = new JTextField();
         txtCpf = new JTextField();

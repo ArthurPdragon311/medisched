@@ -59,8 +59,10 @@ public class TelaConsulta extends JFrame {
     
     private JPanel criarPainelFormulario() {
         JPanel panel = new JPanel(new GridLayout(4, 2, 10, 10));
-        panel.setBorder(BorderFactory.createTitledBorder("Dados da Consulta"));
-        panel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        panel.setBorder(BorderFactory.createCompoundBorder(
+            BorderFactory.createTitledBorder("Dados da consulta"),
+            BorderFactory.createEmptyBorder(10, 10, 10, 10)
+        ));
         
         comboPaciente = new JComboBox<>();
         comboMedico = new JComboBox<>();

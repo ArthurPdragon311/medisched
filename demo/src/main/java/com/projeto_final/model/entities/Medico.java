@@ -61,16 +61,6 @@ public class Medico extends Pessoa {
         this.especialidade = especialidade;
     }
     
-    // Métodos de negócio específicos
-    public boolean podeAtender(Especialidade especialidadeConsulta) {
-        return this.especialidade != null && 
-               this.especialidade.equals(especialidadeConsulta);
-    }
-    
-    public String getNomeComTitulo() {
-        return "Dr(a). " + getNome();
-    }
-    
     @Override
     public String toString() {
         return getNome() + " - " + (especialidade != null ? especialidade.getNome() : "Sem especialidade");

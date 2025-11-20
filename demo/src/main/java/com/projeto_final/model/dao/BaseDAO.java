@@ -101,14 +101,4 @@ public abstract class BaseDAO<T> implements GenericDAO<T> {
     public void atualizar(T objeto) {
         salvarDados();
     }
-    
-    protected int getTamanho() {
-        return dados.size();
-    }
-    
-    protected void limpar() {
-        dados.clear();
-        proximoId = 1L;
-        salvarDados();
-    }
 }
