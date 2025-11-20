@@ -82,10 +82,4 @@ public class TelaPrincipal extends JFrame {
         TelaConsulta tela = new TelaConsulta();
         tela.setVisible(true);
     }
-    
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            new TelaPrincipal().setVisible(true);
-        });
-    }
 }

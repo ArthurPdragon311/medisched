@@ -6,7 +6,6 @@ import com.projeto_final.controller.PacienteController;
 import com.projeto_final.model.entities.Consulta;
 import com.projeto_final.model.entities.Medico;
 import com.projeto_final.model.entities.Paciente;
-import com.projeto_final.model.enums.StatusConsulta;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
