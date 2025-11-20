@@ -13,14 +13,7 @@ public class Medico extends Pessoa {
         super();
     }
     
-    public Medico(String nome, String crm, String telefone, 
-                 String email, Especialidade especialidade) {
-        super(nome, telefone, email); // Chama construtor da superclasse
-        this.crm = crm;
-        this.especialidade = especialidade;
-    }
-    
-    public Medico(Long id, String nome, String crm, String telefone, 
+        public Medico(Long id, String nome, String crm, String telefone, 
                  String email, Especialidade especialidade) {
         super(id, nome, telefone, email); // Chama construtor da superclasse
         this.crm = crm;
